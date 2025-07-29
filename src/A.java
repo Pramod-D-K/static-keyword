@@ -3,7 +3,7 @@ public class A {
     A(){
 
     }
-    void print(){
+     void print(){
         System.out.println("B class Method");
     }
 }

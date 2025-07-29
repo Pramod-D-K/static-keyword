@@ -1,4 +1,4 @@
-public class B {
+public class B extends A {
     static int b=200;
     int bb=100;
     static {
@@ -24,7 +24,7 @@ public class B {
         this .bb =900;
         System.out.println("parameterized constructor");
     }
-     void print(){
+      void print(){
         System.out.println("B constructor");
     }
 }

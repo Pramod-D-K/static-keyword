@@ -1,4 +1,4 @@
-public class C {
+public class C extends B {
 
     C(){
 
@@ -12,7 +12,7 @@ public class C {
         }
     }
     int x = 100;
-     static void print(){
+       void print(){
         System.out.println("C constructor");
     }
 }
