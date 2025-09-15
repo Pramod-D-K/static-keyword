@@ -4,6 +4,7 @@ public class B extends A {
     static {
         b=300;
         System.out.println("static block");
+
     }
     {
         bb=222;
@@ -24,7 +25,7 @@ public class B extends A {
         this .bb =900;
         System.out.println("parameterized constructor");
     }
-      void print(){
+       void print(){
         System.out.println("B constructor");
     }
 }

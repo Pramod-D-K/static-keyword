@@ -12,7 +12,7 @@ public class C extends B {
         }
     }
     int x = 100;
-       void print(){
+        void print(){
         System.out.println("C constructor");
     }
 }
